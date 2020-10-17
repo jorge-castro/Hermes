@@ -16,7 +16,7 @@ def get_worth_of_shares(shares):
     return {ticker.upper():{"no_of_shares":shares[ticker], "worth_of_shares":shares[ticker]*prices[ticker.upper()]} for ticker in shares.keys()}
 
 def main():
-    print(get_crypto_price(ids="handshake"))
+    return
 
 if __name__ == "__main__":
     main()

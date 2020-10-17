@@ -137,3 +137,6 @@ lyzer
 
 # Cython debug symbols
 cython_debug/
+
+#Open buffers
+*.swp
