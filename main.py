@@ -14,5 +14,8 @@ def main():
 
     print(requests.get(f"{REQUEST_URL}/getMe").json())
 
+
 if __name__ == "__main__":
     main()
+
+
