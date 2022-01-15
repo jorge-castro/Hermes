@@ -3,13 +3,11 @@ from inspect import getmembers, isfunction
 
 import requests
 from flask import Flask, request
-from dotenv import load_dotenv
 
 import bot_commands as bot
 
 
-#Load API token from .env
-load_dotenv()
+#Load API token from environment
 TOKEN = os.getenv("TOKEN")
 
 #Define format for API requests
