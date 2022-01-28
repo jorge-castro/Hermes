@@ -1,0 +1,9 @@
+{
+    "production": {
+        "app_function": "app.app",
+        "profile_name": "default",
+        "project_name": "hermes-lambda",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-gr6vztyl0"
+    }
+}
